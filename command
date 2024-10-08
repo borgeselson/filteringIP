@@ -7,3 +7,4 @@ cat access.log | grep 000.000.000.000 | head -n1
 cat access.log | grep 000.000.000.000 | tail -n1
 cat access.log | grep 000.000.000.000 | head -n500
 cat access.log | grep 000.000.000.000 | grep "Nikto"
+cat access.log | grep 000.000.000.000 | cut -d ']' -f2 | grep 200
