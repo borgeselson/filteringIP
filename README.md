@@ -13,3 +13,4 @@
 # | head -n500 -> first 500 lines to analyze the most used type of command;
 # cat access.log | grep 000.000.000.000 | grep "Nikto" -> replace "Nikto" with "nessus", "nmap" among others;
 # cat access.log | grep 000.000.000.000 | cut -d ']' -f2 | grep 200 -> show the content after "]" that has the result "200";
+# f1 is before a given signal and f2 is after the signal;
